@@ -1,0 +1,36 @@
+{
+  "name": "koa2-typescript",
+  "version": "1.0.0",
+  "description": "koa2-typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyun8080/koa2-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyun8080/koa2-typescript/issues"
+  },
+  "homepage": "https://github.com/dyun8080/koa2-typescript#readme",
+  "dependencies": {
+    "koa": "^2.5.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.45",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
