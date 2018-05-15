@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && node src/index.js"
+    "start": "tsc && node ./build/index.js",
+    "watch": "nodemon ./build/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
   },
   "devDependencies": {
     "@types/koa": "^2.0.45",
+    "gulp": "^3.9.1",
+    "nodemon": "^1.17.4",
     "tslint": "^5.10.0",
     "typescript": "^2.8.3"
   },

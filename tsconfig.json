@@ -12,15 +12,22 @@
 		"target": "es2017",
 		"removeComments": true,
 		"jsx": "react",
-		// "jsx": "preserve",
-		"sourceMap": true,
+		"sourceMap": false,
+
 		"baseUrl": "src",
 		"paths": {
-			"@/*": ["./*"],
-    }
-
+			"@/*": [
+				"./*"
+			],
+		},
+		"watch": true,
+		"rootDir": "./src",
+		"outDir":"./build",
 	},
 	"exclude": [
 		"node_modules",
+	],
+	"include": [
+		"./src/**/*"
 	]
 }
